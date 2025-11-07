@@ -1,10 +1,10 @@
-Customer Shopping Behavior Analysis – End-to-End Data Analytics Project
-Overview
+### Customer Shopping Behavior Analysis
+### Overview
 
 This project analyzes customer shopping behavior using a dataset of 3,900 purchases to uncover insights on spending patterns, customer segments, and product preferences.
 The full analytics pipeline includes Python-based data preparation, SQL-based querying, Power BI dashboarding, and a final PPT deck made in Gamma.
 
-Dataset
+### Dataset
 Attribute	Value
 Rows	3,900
 Columns	18
@@ -16,21 +16,21 @@ Databases	PostgreSQL
 Visualization	Power BI
 Presentation	Gamma
 Python Libraries	pandas, numpy, matplotlib, seaborn, sqlalchemy
-Steps Performed
+### Steps Performed
 
-Data Loading & EDA → imported data using pandas, explored structure & summary stats
+### Data Loading & EDA → imported data using pandas, explored structure & summary stats
 
-Data Cleaning → handled missing values (37 missing ratings filled using category-wise median)
+### Data Cleaning → handled missing values (37 missing ratings filled using category-wise median)
 
-Feature Engineering → created age_group and purchase_frequency_days to enrich behavioral insights
+### Feature Engineering → created age_group and purchase_frequency_days to enrich behavioral insights
 
-Database Integration → loaded cleaned table into PostgreSQL for advanced SQL querying
+### Database Integration → loaded cleaned table into PostgreSQL for advanced SQL querying
 
-Visualization → built interactive Power BI dashboard highlighting revenue, segments, products & behavior
+### Visualization → built interactive Power BI dashboard highlighting revenue, segments, products & behavior
 
-Final Reporting → created a Gamma PPT summarizing final insights & recommendations
+### Final Reporting → created a Gamma PPT summarizing final insights & recommendations
 
-Insights
+### Insights
 
 Male customers generated 68% revenue ($157,890) vs females ($75,191)
 
@@ -44,7 +44,7 @@ Subscription status has minimal spend difference → benefit structure needs imp
 
 Revenue contribution across age groups is balanced, indicating broad market appeal
 
-Dashboard
+### Dashboard
 
 The Power BI dashboard includes:
 
