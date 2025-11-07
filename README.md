@@ -16,6 +16,7 @@ Databases	PostgreSQL
 Visualization	Power BI
 Presentation	Gamma
 Python Libraries	pandas, numpy, matplotlib, seaborn, sqlalchemy
+
 ### Steps Performed
 
 ### Data Loading & EDA → imported data using pandas, explored structure & summary stats
@@ -67,3 +68,13 @@ Optimize discount strategy to balance margins
 Highlight top-rated products in campaigns
 
 Target high revenue age groups + male shoppers
+
+project/
+│
+├── data/                  # raw and cleaned data files
+├── notebooks/             # python notebooks for EDA and preprocessing
+├── sql/                   # SQL query scripts
+├── dashboard/             # Power BI .pbix file
+├── report/                # final PPT from Gamma
+└── README.md              # project documentation
+
